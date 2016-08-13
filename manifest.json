@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Save Session",
+  "description": "Will help retreive all the tabs stored in a particular session",
+
+  "browser_action" : {
+    "default_popup" : "index.html"
+  },
+  "version": "1.0",
+  "permissions" : [
+    "storage",
+    "tabs",
+    "activeTab"
+  ]
+
+}
